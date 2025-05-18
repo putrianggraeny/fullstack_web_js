@@ -1,6 +1,7 @@
 # Web Pengelolaan Data Kendaraan (FULLSTACK WEBSITE)
 
 Website fullstack untuk mengelola data kendaraan, dibangun dengan:
+
 **Frontend**: HTML, CSS, JavaScript (tanpa framework)
 **Backend**: Java Spring Boot (RESTful API)
 
