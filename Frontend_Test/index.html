@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Kendaraan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Aplikasi Data Kendaraan</h1>
+
+    <div class="input-container">
+      <div class="input-group">
+        <input type="text" id="inputNumber" placeholder="No Registrasi">
+        <input type="text" id="inputName" placeholder="Nama Pemilik">
+      </div>
+      <div class="button-group">
+        <button id="searchButton">Search</button>
+        <button id="addButton">Add</button>
+      </div>
+    </div>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>No Registrasi</th>
+          <th>Nama Pemilik</th>
+          <th>Merk Kendaraan</th>
+          <th>Tahun Pembuatan</th>
+          <th>Kapasitas</th>
+          <th>Warna</th>
+          <th>Bahan Bakar</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="bodyTable">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
